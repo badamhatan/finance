@@ -7,7 +7,7 @@ var financeController = (function () {})();
 // Програмын холбогч контроллер
 var appController = (function (uiController, financeController) {
   var ctrlAddItem = function () {
-    console.log("ogogdol avax xeseg");
+    console.log("өгөгдөл оруула хэсэг");
   };
   document.querySelector(".add__btn").addEventListener("click", function () {
     ctrlAddItem();
@@ -18,6 +18,7 @@ var appController = (function (uiController, financeController) {
     //   5. Эцсийн үлдэгдэл, тооцоог дэлгэцэнд гаргана.
   });
   // Keyboard-с enter товчийг дарахад өгөгдлийг оруулах товчийг дарсантай адил үйлдэл хийдэг болгоё. Ингэхдээ keyboard-ний товч бүр өөрийг нь илэрхийлэх KeyCode-той байдаг. Enter товч нь 13 гэсэн кодтой байдаг.
+
   document.addEventListener("keypress", function (event) {
     //   дээр үеийн browser-уудад энэ нь event.which гэж ажилладаг
     if (event.keyCode === 13 || event.which === 13) {
