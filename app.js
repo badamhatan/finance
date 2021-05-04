@@ -38,15 +38,15 @@ var financeController = (function () {
 
   var data = {
     allItems: {
-      inc=[],
-      expense:[]      
-    }
+      inc: [],
+      expense: [],
+    },
 
     totals: {
-      inc:0,
-      exp:0
-    }
-  }
+      inc: 0,
+      exp: 0,
+    },
+  };
 })();
 
 // Програмын холбогч контроллер
